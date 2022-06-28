@@ -1,0 +1,15 @@
+body {
+  margin: auto;
+  width: 50vw;
+}
+
+nav {
+  background-color: #F55A5A;
+  color: white;
+  display: flex;
+  
+}
+
+.planet {
+  width: 100%;
+}
