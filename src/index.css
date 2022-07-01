@@ -1,13 +1,14 @@
 body {
   margin: auto;
+  margin-top: 50px;
   width: 50vw;
 }
 
-nav {
+.nav-bar {
   background-color: #F55A5A;
   color: white;
-  display: flex;
-  
+  text-align: center;
+  width: 550px;
 }
 
 .planet {
