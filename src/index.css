@@ -20,3 +20,7 @@ body {
   padding: 16px 7px 16px 0;
   width: 24px;
 }
+
+.location-photo {
+  width: 50%;
+}
