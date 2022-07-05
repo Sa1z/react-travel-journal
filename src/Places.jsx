@@ -10,7 +10,6 @@ export default function Places(props) {
           <a className='google-link' href={props.googleMapsUrl}>View on Google Maps</a>
         </div>
         <h1 className="title">{props.title}</h1>
-        <br />
         <h4 className="time-spent">{props.startDate} - {props.endDate}</h4>
         <p className="info">{props.description}</p>
       </div>

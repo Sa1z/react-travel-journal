@@ -8,7 +8,7 @@
 body {
   margin: auto;
   margin-top: 50px;
-  width: 60vw;
+  max-width: 60vw;
 }
 
 .google-link {
@@ -26,12 +26,14 @@ body {
   border-radius: 5px;
   max-height: 200px;
   max-width: 150px;
-  padding-right: 20px;
+  object-fit: cover;
+  width: 100%;
 }
 
 .map-info {
   display: flex;
   font-size: 14px;
+  padding-bottom: 7px;
 }
 
 .map-info > img {
@@ -55,6 +57,19 @@ body {
 }
 
 .places {
+  border-bottom: grey solid;
   display: flex;
   padding-top: 50px;
+}
+
+.text-block {
+  padding-left: 20px;
+}
+
+.time-spent {
+  padding-bottom: 9px;
+}
+
+.title {
+  padding-bottom: 14px;
 }
