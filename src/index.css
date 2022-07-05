@@ -1,11 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 * {
   margin: 0;
+  font-family: 'Inter', sans-serif;
 }
 
 body {
   margin: auto;
   margin-top: 50px;
-  width: 50vw;
+  width: 60vw;
+}
+
+.google-link {
+  color: #918E9B;
+  font-size: 12px;
+}
+
+.location {
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  padding-right: 12px;
+}
+
+.location-photo {
+  border-radius: 5px;
+  max-height: 200px;
+  max-width: 150px;
+  padding-right: 20px;
+}
+
+.map-info {
+  display: flex;
+  font-size: 14px;
+}
+
+.map-info > img {
+  max-height: 12px;
+  max-width: 10px;
+  padding-right: 4px;
+  width: 100%;
 }
 
 .nav-bar {
@@ -21,6 +54,7 @@ body {
   width: 24px;
 }
 
-.location-photo {
-  width: 50%;
+.places {
+  display: flex;
+  padding-top: 50px;
 }
