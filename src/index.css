@@ -1,19 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 * {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
   font-family: 'Inter', sans-serif;
 }
 
 body {
   margin: auto;
   margin-top: 50px;
-  max-width: 60vw;
+  max-height: 704px;
+  max-width: 550px;
+  width: 100%;
 }
 
 .google-link {
   color: #918E9B;
   font-size: 12px;
+}
+
+.info {
+  font-size: 10px;
+  line-height: 15px;
 }
 
 .location {
@@ -24,10 +33,10 @@ body {
 
 .location-photo {
   border-radius: 5px;
-  max-height: 200px;
-  max-width: 150px;
+  height: 170px;
+  width: 125px;
   object-fit: cover;
-  width: 100%;
+  
 }
 
 .map-info {
@@ -38,7 +47,7 @@ body {
 
 .map-info > img {
   max-height: 12px;
-  max-width: 10px;
+  max-width: 12px;
   padding-right: 4px;
   width: 100%;
 }
@@ -57,19 +66,26 @@ body {
 }
 
 .places {
-  border-bottom: grey solid;
+  border-bottom: 1px solid #F5F5F5;
   display: flex;
   padding-top: 50px;
 }
 
+
 .text-block {
+  padding-top: 20px;
   padding-left: 20px;
+  padding-bottom: 30px;
 }
 
 .time-spent {
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0em;
   padding-bottom: 9px;
 }
 
 .title {
+  font-size: 25px;
   padding-bottom: 14px;
 }

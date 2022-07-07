@@ -12,6 +12,7 @@ export default function Places(props) {
         <h1 className="title">{props.title}</h1>
         <h4 className="time-spent">{props.startDate} - {props.endDate}</h4>
         <p className="info">{props.description}</p>
+        <span className="grey-line"></span>
       </div>
     </div>
   )
