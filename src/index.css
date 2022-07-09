@@ -58,19 +58,13 @@ body {
   color: white;
   display: flex;
   justify-content: center;
+  margin-bottom: 14px;
 }
 
 .planet {
   padding: 16px 7px 16px 0;
   width: 24px;
 }
-
-.places {
-  border-bottom: 1px solid #F5F5F5;
-  display: flex;
-  padding-top: 50px;
-}
-
 
 .text-block {
   padding-top: 20px;
